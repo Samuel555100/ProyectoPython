@@ -1,0 +1,37 @@
+*{margin:0;padding:0;box-sizing:border-box;font-size:0; 
+    font-family: 'Noto Sans Mongolian', sans-serif;
+    font-family: 'Sora', sans-serif;}  
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:20px;
+      display: flex;
+      }
+            
+nav li{
+      display:inline-block;
+      width:265px;
+      height:50px;
+      padding:5px 10px;
+      background-color:#000;
+      border:1px solid #000;
+      text-align:center;
+      color:#fff;
+      position:relative;
+}
+            
+nav li:hover{
+      background-color:#fff;
+      color:#000;
+      }
+            
+nav li>ul{
+      display:none;
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:30px;
+      left:0px;
+}
